@@ -8,12 +8,10 @@ module.exports = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
   },
   menu: {
     flex: 1,
     backgroundColor: 'transparent',
-    position: 'absolute',
     top: 0,
     left: 0,
   },
