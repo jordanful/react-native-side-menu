@@ -1,5 +1,5 @@
 const styles = require('./styles');
-const React = require('react-native');
+const ReactNative = require('react-native');
 const { Dimensions, Animated, } = React;
 const deviceScreen = Dimensions.get('window');
 
@@ -8,8 +8,9 @@ const {
   View,
   TouchableWithoutFeedback,
   Component,
-} = React;
+} = ReactNative;
 
+import React, { Component } from 'react';
 /**
  * Size of the amount you can move content view in the opened menu state and
  * release without menu closing
