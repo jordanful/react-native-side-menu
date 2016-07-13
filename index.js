@@ -7,7 +7,6 @@ const {
   PanResponder,
   View,
   TouchableWithoutFeedback,
-  Component,
 } = ReactNative;
 
 import React, { Component } from 'react';
